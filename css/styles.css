@@ -134,7 +134,7 @@ ul {
 .button:active {
     background-color: #404BBF;
 }
-.features-section-container {
+.features-section {
     background-color: #FFF;
     padding: 120px 0;
 }
@@ -218,9 +218,7 @@ ul {
     text-align: center;
 }
 .portfolio-section {
-    flex-shrink: 0;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0 120px 0;
 }
 .portfolio-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -274,12 +272,6 @@ ul {
 .footer-container {
     width: 264px;
         flex-shrink: 0;
-}
-.footer-logo-container {
-    display: inline-flex;
-        align-items: center;
-        flex-shrink: 0;
-        margin-bottom: 16px;
 }
 .footer-logo {
     color: var(--IRIS, #4D5AE5);
